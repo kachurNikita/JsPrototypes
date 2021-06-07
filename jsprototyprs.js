@@ -48,7 +48,7 @@ function getOnlyNames (user) {
 
 //check Email
 
-const findEmail = youngGirlsAge.every(checkEmail)
+const findEmail = youngGirlsAge.find(checkEmail)
 console.log(findEmail)
 
 function checkEmail (user) {
